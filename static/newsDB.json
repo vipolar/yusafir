@@ -4,55 +4,55 @@
         "desc": "Travel to Tbilisi at great price!",
         "date": "22.08.2022",
         "link": "#news1",
-        "thumb": "static/newsImages/thumb1.jpg"
+        "thumb": "./static/newsImages/thumb1.jpg"
     },
     {
         "title": "News!",
         "desc": "New tourist destinations added!",
         "date": "12.09.2022",
         "link": "#news2",
-        "thumb": "static/newsImages/thumb2.jpg"
+        "thumb": "./static/newsImages/thumb2.jpg"
     },
     {
         "title": "Change!",
         "desc": "Due to change in regulations traveling to Georgia has been made even easier! Due to change in regulations traveling to Georgia has been made even easier!",
         "date": "04.10.2022",
         "link": "#news3",
-        "thumb": "static/newsImages/thumb3.jpg"
+        "thumb": "./static/newsImages/thumb3.jpg"
     },
     {
         "title": "Deal!",
         "desc": "Travel to Kutaisi at great price!",
         "date": "28.06.2022",
         "link": "#news4",
-        "thumb": "static/newsImages/thumb4.jpg"
+        "thumb": "./static/newsImages/thumb4.jpg"
     },
     {
         "title": "Deal!",
         "desc": "Travel to Tbilisi at great price!",
         "date": "22.08.2022",
         "link": "#news5",
-        "thumb": "static/newsImages/thumb5.jpg"
+        "thumb": "./static/newsImages/thumb5.jpg"
     },
     {
         "title": "Deal!",
         "desc": "Travel to Kutaisi at great price!",
         "date": "28.06.2022",
         "link": "#news6",
-        "thumb": "static/newsImages/thumb6.jpg"
+        "thumb": "./static/newsImages/thumb6.jpg"
     },
     {
         "title": "Deal!",
         "desc": "Travel to Kutaisi at great price!",
         "date": "28.06.2022",
         "link": "#news7",
-        "thumb": "static/newsImages/thumb7.jpg"
+        "thumb": "./static/newsImages/thumb7.jpg"
     },
     {
         "title": "Deal!",
         "desc": "Travel to Kutaisi at great price!",
         "date": "28.06.2022",
         "link": "#news8",
-        "thumb": "static/newsImages/thumb8.jpg"
+        "thumb": "./static/newsImages/thumb8.jpg"
     }
 ]
