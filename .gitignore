@@ -1,0 +1,8 @@
+/node_modules/
+/public/build/
+/svg/
+
+.DS_Store
+
+
+#DON'T FORGET TO REMOVE JSON PLUGIN FROM THE FINAL BUILD

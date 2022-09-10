@@ -1,0 +1,82 @@
+[
+    {
+        "title": "Adventure in Svaneti!",
+        "author": "Khatia Maghradze",
+        "date": "22.09.2022",
+        "link": "#post1",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb1.jpg"
+    },
+    {
+        "title": "Celebration of 'Mariamoba' in Tbilisi",
+        "author": "Khatia Maghradze",
+        "date": "01.09.2022",
+        "link": "#post2",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb2.jpg"
+    },
+    {
+        "title": "On the 'Wine Road!' Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum luctus augue sit amet iaculis vulputate. Donec finibus varius egestas. Mauris pulvinar lectus id gravida tempus.",
+        "author": "Khatia Maghradze",
+        "date": "30.09.2022",
+        "link": "#post3",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb3.jpg"
+    },
+    {
+        "title": "Winter in Georgia",
+        "author": "Khatia Maghradze",
+        "date": "01.11.2022",
+        "link": "#post4",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb4.jpg"
+    },
+    {
+        "title": "On the road Khevsureti!",
+        "author": "Khatia Maghradze",
+        "date": "19.07.2022",
+        "link": "#post5",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb5.jpg"
+    },
+    {
+        "title": "Arriving to Georgia for the first time!",
+        "author": "Khatia Maghradze",
+        "date": "21.08.2022",
+        "link": "#post6",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb6.jpg"
+    },
+    {
+        "title": "Discovering the Georgian cuisine!",
+        "author": "Khatia Maghradze",
+        "date": "22.09.2022",
+        "link": "#post7",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb7.jpg"
+    },
+    {
+        "title": "Fun on the road to Khashuri!",
+        "author": "Khatia Maghradze",
+        "date": "31.02.2022",
+        "link": "#post8",
+        "authlink": "#author1",
+        "authimg": "static/authImages/auth1.jpg",
+        "authcover": "static/authImages/cover1.jpg",
+        "thumb": "static/postImages/thumb8.jpg"
+    }
+]
