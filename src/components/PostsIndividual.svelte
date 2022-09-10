@@ -104,7 +104,7 @@
     .side {
         border-bottom-left-radius: 4px;
         border-top-left-radius: 4px;
-        background-color: #F6F7F8;
+        background-color: #CCCCCC; /* #F6F7F8 */
         position: absolute;
         height: 100%;
         width: 40px;
@@ -243,7 +243,7 @@
     .actionbar {
         box-sizing: border-box;
         padding-right: 12px;
-        padding-left: 60px;
+        padding-left: 50px;
         margin-bottom: 9px;
         width: 100%;
     }
