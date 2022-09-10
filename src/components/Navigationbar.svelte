@@ -1,5 +1,5 @@
 <div class="banner">
-    <img alt="sds" src="/static/logo.png">
+    <img alt="logo" src="./static/logo.png">
     <nav>
         <ul>
             <li>
