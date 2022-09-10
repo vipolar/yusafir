@@ -249,7 +249,7 @@
     }
 
     .actionbar > a {
-        background-color: #f2f8fc;
+        background-color: #EDEFF1;
         display: inline-block;
         border-radius: 9999px;
         padding: 4px 10px;
@@ -275,7 +275,7 @@
     }
 
     .actionbar > a:hover, .actionbar > a:active {
-        background-color: #EDEFF1;
+        background-color: #CCCCCC;
     }
 
     .actionbar > a:hover > svg {
