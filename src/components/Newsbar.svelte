@@ -115,6 +115,7 @@
     }
 
     #newsbar > section {
+        border-radius: 1px;
         position: relative;
         overflow: hidden;
         height: 180px;
@@ -283,6 +284,7 @@
 
     #leftscroll > svg {
         position: relative;
+        fill: #111111;
         height: 34px;
         width: 34px;
     }
@@ -290,6 +292,7 @@
     #leftscroll:hover > svg {
         transition: transform .25s;
         transform: scale(1.2);
+        fill: #000000;
     }
 
     #rightscroll {
@@ -309,6 +312,7 @@
 
     #rightscroll > svg {
         position: relative;
+        fill: #111111;
         height: 34px;
         width: 34px;
     }
@@ -316,5 +320,6 @@
     #rightscroll:hover > svg {
         transition: transform .25s;
         transform: scale(1.2);
+        fill: #000000;
     }
 </style>

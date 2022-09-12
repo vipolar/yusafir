@@ -24,14 +24,18 @@
 
 <style>
 	main {
+		box-sizing: border-box;
 		margin-right: auto;
         margin-left: auto;
+		padding: 0 16px;
         width: 1024px;
 	}
 
 	footer {
+		box-sizing: border-box;
 		margin-right: auto;
         margin-left: auto;
+		padding: 0 16px;
         width: 1024px;
 	}
 

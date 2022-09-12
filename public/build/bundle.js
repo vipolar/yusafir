@@ -864,25 +864,25 @@ var app = (function () {
     			t8 = space();
     			attr_dev(img, "alt", /*liEntry*/ ctx[1].title);
     			if (!src_url_equal(img.src, img_src_value = /*liEntry*/ ctx[1].thumb)) attr_dev(img, "src", img_src_value);
-    			attr_dev(img, "class", "svelte-sq5zrn");
+    			attr_dev(img, "class", "svelte-ckers0");
     			add_location(img, file$7, 73, 24, 2161);
-    			attr_dev(h4, "class", "svelte-sq5zrn");
+    			attr_dev(h4, "class", "svelte-ckers0");
     			add_location(h4, file$7, 75, 28, 2265);
-    			attr_dev(h3, "class", "svelte-sq5zrn");
+    			attr_dev(h3, "class", "svelte-ckers0");
     			add_location(h3, file$7, 76, 28, 2317);
-    			attr_dev(h5, "class", "svelte-sq5zrn");
+    			attr_dev(h5, "class", "svelte-ckers0");
     			add_location(h5, file$7, 77, 28, 2370);
     			attr_dev(a0, "href", /*liEntry*/ ctx[1].link);
     			add_location(a0, file$7, 78, 32, 2426);
-    			attr_dev(h6, "class", "svelte-sq5zrn");
+    			attr_dev(h6, "class", "svelte-ckers0");
     			add_location(h6, file$7, 78, 28, 2422);
-    			attr_dev(div, "class", "svelte-sq5zrn");
+    			attr_dev(div, "class", "svelte-ckers0");
     			add_location(div, file$7, 74, 24, 2231);
     			attr_dev(a1, "draggable", "false");
     			attr_dev(a1, "href", /*liEntry*/ ctx[1].link);
-    			attr_dev(a1, "class", "svelte-sq5zrn");
+    			attr_dev(a1, "class", "svelte-ckers0");
     			add_location(a1, file$7, 72, 20, 2095);
-    			attr_dev(li, "class", "svelte-sq5zrn");
+    			attr_dev(li, "class", "svelte-ckers0");
     			add_location(li, file$7, 71, 16, 2070);
     		},
     		m: function mount(target, anchor) {
@@ -968,10 +968,10 @@ var app = (function () {
     			svg1 = svg_element("svg");
     			path1 = svg_element("path");
     			attr_dev(h4, "id", "header");
-    			attr_dev(h4, "class", "svelte-sq5zrn");
+    			attr_dev(h4, "class", "svelte-ckers0");
     			add_location(h4, file$7, 67, 4, 1896);
     			attr_dev(ul, "id", "newslist");
-    			attr_dev(ul, "class", "svelte-sq5zrn");
+    			attr_dev(ul, "class", "svelte-ckers0");
     			add_location(ul, file$7, 69, 8, 1965);
     			attr_dev(path0, "d", "M297.2,478l20.7-21.6L108.7,256L317.9,55.6L297.2,34L65.5,256L297.2,478z M194.1,256L425.8,34l20.7,21.6L237.3,256  l209.2,200.4L425.8,478L194.1,256z");
     			add_location(path0, file$7, 86, 16, 2796);
@@ -979,10 +979,10 @@ var app = (function () {
     			attr_dev(svg0, "xml:space", "preserve");
     			attr_dev(svg0, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg0, "xmlns:xlink", "http://www.w3.org/1999/xlink");
-    			attr_dev(svg0, "class", "svelte-sq5zrn");
+    			attr_dev(svg0, "class", "svelte-ckers0");
     			add_location(svg0, file$7, 85, 12, 2653);
     			attr_dev(div0, "id", "leftscroll");
-    			attr_dev(div0, "class", "svelte-sq5zrn");
+    			attr_dev(div0, "class", "svelte-ckers0");
     			add_location(div0, file$7, 84, 8, 2592);
     			attr_dev(path1, "d", "M214.78,478l-20.67-21.57L403.27,256,194.11,55.57,214.78,34,446.46,256ZM317.89,256,86.22,34,65.54,55.57,274.7,256,65.54,456.43,86.22,478Z");
     			add_location(path1, file$7, 91, 16, 3202);
@@ -990,15 +990,15 @@ var app = (function () {
     			attr_dev(svg1, "xml:space", "preserve");
     			attr_dev(svg1, "xmlns", "http://www.w3.org/2000/svg");
     			attr_dev(svg1, "xmlns:xlink", "http://www.w3.org/1999/xlink");
-    			attr_dev(svg1, "class", "svelte-sq5zrn");
+    			attr_dev(svg1, "class", "svelte-ckers0");
     			add_location(svg1, file$7, 90, 12, 3059);
     			attr_dev(div1, "id", "rightscroll");
-    			attr_dev(div1, "class", "svelte-sq5zrn");
+    			attr_dev(div1, "class", "svelte-ckers0");
     			add_location(div1, file$7, 89, 8, 2996);
-    			attr_dev(section, "class", "svelte-sq5zrn");
+    			attr_dev(section, "class", "svelte-ckers0");
     			add_location(section, file$7, 68, 4, 1947);
     			attr_dev(div2, "id", "newsbar");
-    			attr_dev(div2, "class", "svelte-sq5zrn");
+    			attr_dev(div2, "class", "svelte-ckers0");
     			add_location(div2, file$7, 66, 0, 1873);
     		},
     		l: function claim(nodes) {
@@ -3328,9 +3328,9 @@ var app = (function () {
     			footer1 = element("footer");
     			create_component(footer0.$$.fragment);
     			add_location(header, file, 10, 0, 349);
-    			attr_dev(main, "class", "svelte-1mj07z9");
+    			attr_dev(main, "class", "svelte-17ejhyt");
     			add_location(main, file, 15, 0, 399);
-    			attr_dev(footer1, "class", "svelte-1mj07z9");
+    			attr_dev(footer1, "class", "svelte-17ejhyt");
     			add_location(footer1, file, 20, 0, 436);
     		},
     		l: function claim(nodes) {
