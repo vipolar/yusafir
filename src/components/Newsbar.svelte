@@ -115,7 +115,7 @@
     }
 
     #newsbar > section {
-        border-radius: 1px;
+        border-radius: 1px; /* 8 */
         position: relative;
         overflow: hidden;
         height: 180px;

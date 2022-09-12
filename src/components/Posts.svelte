@@ -24,7 +24,7 @@
         box-sizing: border-box;
         padding-right: 10px;
         padding-left: 5px;
-        width: 65%;
+        width: 66%;
     }
     
     .postsheader {

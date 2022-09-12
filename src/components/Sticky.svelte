@@ -1,5 +1,5 @@
 <script>
-    import sticky from './Sticky.js';
+    import sticky from './js/Sticky.js';
 
     const stickToTop = true;
 
@@ -125,15 +125,16 @@
 
 <style>
     .socialscontainer {
+        /* top: 56px; = header + margin */
         background-color: #FFFFFF;
         border: 1px solid #CCCCCC;
         box-sizing: border-box;
         transition: all 0.3s;
         border-radius: 4px;
         position: sticky;
-        padding: 1rem;
+        padding: .3rem;
         width: 100%;
-        top: 1rem;
+        top: 56px;
     }
 
     .socialscontainer:hover {
@@ -141,16 +142,16 @@
     }
 
     .socialsheader {
-        margin-top: 10px;
         text-align: center;
         font-weight: 700;
+        margin-top: 10px;
         display: block;
     }
 
     a {
-        margin: 10px;
-        display: block;
         font-weight: 700;
+        display: block;
+        margin: 10px;
     }
 
     a:hover {
@@ -188,7 +189,7 @@
     }
 
     .gototopdiv {
-        top: calc(100% + (100vh - 100% - 2rem) - 1.5rem);
+        top: calc(100% + (100vh - 100% - 1rem - 56px - 1px) - 1.5rem);
         box-sizing: border-box;
         position: absolute;
         width: 100%;

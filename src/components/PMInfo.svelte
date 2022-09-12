@@ -1,6 +1,6 @@
 <script>
     import EntriesJSON from '../../public/static/postDB.json';
-    import Sticky from './Stick.svelte'
+    import Sticky from './Sticky.svelte'
     let auth = EntriesJSON[0];
 </script>
 
@@ -26,7 +26,7 @@
         padding-right: 5px;
         display: block;
         float: right;
-        width: 35%;
+        width: 34%;
     }
 
     .aboutheader {

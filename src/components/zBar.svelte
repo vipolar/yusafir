@@ -8,7 +8,7 @@
         margin-bottom: 0.5rem;
         padding-right: 8px;
         padding-left: 5px;
-        width: 65%; 
+        width: 66%; 
     }
 
     .footer {

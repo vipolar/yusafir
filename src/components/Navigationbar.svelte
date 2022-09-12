@@ -72,16 +72,19 @@
         </ul>
     </nav>
 </div>
-
+<div style="margin-bottom: 20px; height: 48px;"></div>
 
 <style>
     .banner {
         padding: 0 calc((100% - 1024px) / 2);
+        border-bottom: 1px solid #E9EBED;
         background-color: #FFFFFF;
         box-sizing: border-box;
         margin-bottom: 20px;
+        position: fixed;
         height: 48px;
         width: 100%;
+        z-index: 1;
     }
 
     img {
@@ -91,7 +94,7 @@
     }
 
     nav {
-        margin-right: 30px;
+    /*    margin-right: 30px; */
         height: inherit;
         float: right;
     }

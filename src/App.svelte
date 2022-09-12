@@ -1,11 +1,9 @@
 <script>
-	//export let name;
 	import Navigationbar from './components/Navigationbar.svelte'
 	import Newsbar from './components/Newsbar.svelte'
 	import PMInfo from './components/PMInfo.svelte'
 	import Posts from './components/Posts.svelte'
-	import Footer from './components/zFooter.svelte'
-	//import Stick from './components/Stick.svelte'
+	import Footer from './components/zBar.svelte'
 </script>
 
 <header>

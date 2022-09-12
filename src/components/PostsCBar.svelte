@@ -8,7 +8,7 @@
     };
 
     function cancelDropdown(e) {
-        if (!e.target.matches('.dropbtn')) {
+        if (!e.target.matches('.buttonOverlay')) {
             const dropdowns = document.getElementsByClassName("dropdown-content");
 
             for (let i = 0; i < dropdowns.length; i++) {
@@ -38,25 +38,39 @@
     <div class="controls">
         <div class="buttons">
             <div class="location">
-                <button on:click={locationDropdown} class="dropbtn">
+                <button>
                     <span>Everywhere</span>
-                    <i></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.021 30.021" style="enable-background:new 0 0 30.021 30.021;" xml:space="preserve">
+                        <g>
+                            <path d="M28.611,13.385l-11.011,9.352c-0.745,0.633-1.667,0.949-2.589,0.949c-0.921,0-1.842-0.316-2.589-0.949L1.411,13.385
+                                c-1.684-1.43-1.89-3.954-0.46-5.638c1.431-1.684,3.955-1.89,5.639-0.459l8.421,7.151l8.42-7.151
+                                c1.686-1.43,4.209-1.224,5.639,0.459C30.5,9.431,30.294,11.955,28.611,13.385z"/>
+                        </g>
+                    </svg>
+                    <div class="buttonOverlay" on:click={locationDropdown}></div>
                 </button>
                 <div id="locationDropdown" class="dropdown-content">
-                <a href="#lnk1">Link 1</a>
-                <a href="#lnk2">Link 2</a>
-                <a href="#lnk3">Link 3</a>
+                    <a href="#lnk1">Link 1</a>
+                    <a href="#lnk2">Link 2</a>
+                    <a href="#lnk3">Link 3</a>
                 </div>
             </div>
             <div class="type">
-                <button on:click={typeDropdown} class="dropbtn">
+                <button>
                     <span>Posts</span>
-                    <i></i>
+                    <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 30.021 30.021" style="enable-background:new 0 0 30.021 30.021;" xml:space="preserve">
+                        <g>
+                            <path d="M28.611,13.385l-11.011,9.352c-0.745,0.633-1.667,0.949-2.589,0.949c-0.921,0-1.842-0.316-2.589-0.949L1.411,13.385
+                                c-1.684-1.43-1.89-3.954-0.46-5.638c1.431-1.684,3.955-1.89,5.639-0.459l8.421,7.151l8.42-7.151
+                                c1.686-1.43,4.209-1.224,5.639,0.459C30.5,9.431,30.294,11.955,28.611,13.385z"/>
+                        </g>
+                    </svg>
+                    <div class="buttonOverlay" on:click={typeDropdown}></div>
                 </button>
                 <div id="typeDropdown" class="dropdown-content">
-                <a href="#lnk1">Link 1</a>
-                <a href="#lnk2">Link 2</a>
-                <a href="#lnk3">Link 3</a>
+                    <a href="#lnk1">Link 1</a>
+                    <a href="#lnk2">Link 2</a>
+                    <a href="#lnk3">Link 3</a>
                 </div>
             </div>
         </div>
@@ -124,30 +138,34 @@
         position: relative;
     }
 
-    .dropbtn {
+    button {
         background-color: #f2f8fc;
         border-radius: 10px;
         font-weight: 700;
         font-size: 16px;
         cursor: pointer;
-        color: white;
         border: none;
         padding: 5px;
         margin: 0;
     }
 
-    .dropbtn > span {
+    button > span {
         color: #0079D3;
     }
 
-    .dropbtn > i{
-        background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE2LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPCFET0NUWVBFIHN2ZyBQVUJMSUMgIi0vL1czQy8vRFREIFNWRyAxLjEvL0VOIiAiaHR0cDovL3d3dy53My5vcmcvR3JhcGhpY3MvU1ZHLzEuMS9EVEQvc3ZnMTEuZHRkIj4NCjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2FwYV8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgd2lkdGg9IjMwLjAyMXB4IiBoZWlnaHQ9IjMwLjAyMXB4IiB2aWV3Qm94PSIwIDAgMzAuMDIxIDMwLjAyMSIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMzAuMDIxIDMwLjAyMTsiDQoJIHhtbDpzcGFjZT0icHJlc2VydmUiPg0KPGc+DQoJPHBhdGggZD0iTTI4LjYxMSwxMy4zODVsLTExLjAxMSw5LjM1MmMtMC43NDUsMC42MzMtMS42NjcsMC45NDktMi41ODksMC45NDljLTAuOTIxLDAtMS44NDItMC4zMTYtMi41ODktMC45NDlMMS40MTEsMTMuMzg1DQoJCWMtMS42ODQtMS40My0xLjg5LTMuOTU0LTAuNDYtNS42MzhjMS40MzEtMS42ODQsMy45NTUtMS44OSw1LjYzOS0wLjQ1OWw4LjQyMSw3LjE1MWw4LjQyLTcuMTUxDQoJCWMxLjY4Ni0xLjQzLDQuMjA5LTEuMjI0LDUuNjM5LDAuNDU5QzMwLjUsOS40MzEsMzAuMjk0LDExLjk1NSwyOC42MTEsMTMuMzg1eiIgZmlsbD0iIzAwNzlEMyIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=);
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: contain;
-        display: inherit;
-        height: 10px;
+    button > svg {
+        fill: #0079D3;
+        height: 50%;
         width: 10px;
+    }
+
+    button > div {
+        position: absolute;
+        display: block;
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
     }
 
     .dropdown-content {
