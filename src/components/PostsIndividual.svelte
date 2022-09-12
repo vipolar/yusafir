@@ -3,7 +3,7 @@
 </script>
 
 <div class="postcontainer">
-    <div class="side"></div>
+    <div class="postpadding"></div>
     <a class="postlink" href={liEntry.link}>
         <div class="postdetails">
             <a class="postauthor" href={liEntry.authlink}>
@@ -101,15 +101,6 @@
         width: 100%;
     }
 
-    .side {
-        border-bottom-left-radius: 4px;
-        border-top-left-radius: 4px;
-        background-color: #CCCCCC; /* #F6F7F8 */
-        position: absolute;
-        height: 100%;
-        width: 40px;
-    }
-
     .postcontainer:hover {
         border-color: #a3a3a3;
     }
@@ -120,6 +111,15 @@
 
     .postcontainer:hover .preview {
         color: #000000;
+    }
+
+    .postpadding {
+        border-bottom-left-radius: 4px;
+        border-top-left-radius: 4px;
+        background-color: #CCCCCC;
+        position: absolute;
+        height: 100%;
+        width: 40px;
     }
 
     .postlink {
@@ -278,11 +278,11 @@
         background-color: #CCCCCC;
     }
 
-    .actionbar > a:hover > svg {
+    .actionbar > a:hover > svg, .actionbar > a:active > svg {
         fill: #333333;
     }
 
-    .actionbar > a:hover > span {
+    .actionbar > a:hover > span, .actionbar > a:active > span {
         color: #333333;
     }
 
@@ -290,11 +290,11 @@
         background-color: #0079D3;
     }
 
-    .actionbar > a:last-child:hover > svg {
+    .actionbar > a:last-child:hover > svg, .actionbar > a:last-child:active > svg {
         fill: #FFFFFF;
     }
 
-    .actionbar > a:last-child:hover > span {
+    .actionbar > a:last-child:hover > span, .actionbar > a:last-child:active > span {
         color: #FFFFFF;
     }
 
